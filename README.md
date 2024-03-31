@@ -9,4 +9,4 @@ day1
 - Migration 에러 수정하기
 - Django 모델 만들기 및 실행
 - Django 모델 어드민 페이지 적용
-정리: https://velog.io/@soheean1370/Django-Rest-Framework
+- 정리: https://velog.io/@soheean1370/Django-Rest-Framework
