@@ -10,3 +10,11 @@ day1
 - Django 모델 만들기 및 실행
 - Django 모델 어드민 페이지 적용
 - 정리: https://velog.io/@soheean1370/Django-Rest-Framework
+
+----- 
+day2 (사실 아직 미완성 입니당ㅎㅎ)
+- Django로 Todo 목록 웹 서비스 만들기
+- Todo 전체 조회 기능 만들기
+- Todo 상세 조회 기능 만들기
+- Todo 생성,수정,완료 기능 만들기
+- 정리: https://velog.io/@soheean1370/Django-Rest-Framework-Day2
