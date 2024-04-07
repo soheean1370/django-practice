@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+  <div class ='container'>
+    <h1>Done List</h1>
+    <p>
+      <a href="{% url 'todo_list' %}">홈으로</a>
+    </p>
+    <ul class="list-group">
+      {% for dones in dones %}
+      <li class="list-group-item">
+        <a href="{% url 'todo_detail' pk=done.pk %} ">{{done.title}}</a>
+        {% if done.important %}
+            <span class="badge-danger">!</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</body>
+</html>
